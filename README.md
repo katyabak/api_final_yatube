@@ -13,18 +13,34 @@
 API использует JWT-аутентификацию для защиты эндпоинтов и предоставляет доступ к данным в формате JSON.
 
 Установка
+
 Клонируйте репозиторий:
+
 git clone https://github.com/katyabak/api_final_yatube.git
+
 cd api_final_yatube
+
 Создайте и активируйте виртуальное окружение:
+
 python -m venv venv
+
 source venv/bin/activate  # Для Linux/MacOS
+
 venv\Scripts\activate     # Для Windows
+
 Установите зависимости:
+
 pip install -r requirements.txt
+
 Примените миграции:
+
 python manage.py migrate
+
 Запустите сервер:
+
 python manage.py runserver
+
 Документация API
+
 После запуска сервера документация будет доступна по адресу: http://127.0.0.1:8000/redoc/
+
